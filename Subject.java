@@ -38,5 +38,23 @@ public class Subject {
     public void setMarksObtained(int MarksObtained){
         this.MarksObtained=MarksObtained;
     }
+    public Subject(String name,String SubID, String teacherName){
+        this.name=name;
+        this.SubID=SubID;
+        this.teacherName=teacherName;
+    }
+        public Subject(String name,String SubID, String teacherName,int MaxMarks){
+        this.name=name;
+        this.SubID=SubID;
+        this.teacherName=teacherName;
+        this.MaxMarks=MaxMarks;
+    }
+            public Subject(String name,String SubID, String teacherName,int MaxMarks,int MarksObtained){
+        this.name=name;
+        this.SubID=SubID;
+        this.teacherName=teacherName;
+        this.MaxMarks=MaxMarks;
+        this.MarksObtained=MarksObtained;
+    }
     
 }
