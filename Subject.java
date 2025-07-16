@@ -59,5 +59,7 @@ public class Subject {
         this.MaxMarks=MaxMarks;
         this.MarksObtained=MarksObtained;
     }
-    
+    public String toString(){
+        return "\nname"+name+"\nSubID"+SubID+"\nteacherName"+teacherName;
+    }
 }
