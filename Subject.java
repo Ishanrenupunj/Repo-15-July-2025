@@ -38,6 +38,9 @@ public class Subject {
     public void setMarksObtained(int MarksObtained){
         this.MarksObtained=MarksObtained;
     }
+    boolean isPass(){
+        return MarksObtained >= MaxMarks/10*4;
+    }
     public Subject(String name,String SubID, String teacherName){
         this.name=name;
         this.SubID=SubID;
