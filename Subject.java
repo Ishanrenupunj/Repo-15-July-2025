@@ -63,3 +63,4 @@ public class Subject {
         return "\nname"+name+"\nSubID"+SubID+"\nteacherName"+teacherName;
     }
 }
+
