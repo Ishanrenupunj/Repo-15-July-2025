@@ -6,6 +6,14 @@ public class Main {
         s[2]=new Subject("Maths","S01","Ramesh",100,50);
         for(Subject m:s){
             System.err.println(m);
+
+        }
+        Student stu[]=new Student[3];
+        stu[0]=new Student("Ramesh",1, "Maths","CSE");
+        stu[1]=new Student("Ramesh",1, "Maths","CSE");
+        stu[2]=new Student("Ramesh",1, "Maths","CSE");
+        for(Student l:stu){
+            System.out.println(l);
         }
     }
 }
