@@ -22,4 +22,15 @@ public class Student {
     public String getSubject(){
         return subject;
     }
+    public Subject(String name,int rollNo, String department){
+        this.name=name;
+        this.rollNo=rollNo;
+        this.department=department;
+    }
+    public Subject(String name,int rollNo, String department,String subject){
+        this.name=name;
+        this.rollNo=rollNo;
+        this.department=department;
+        this.subject=subject;
+    }
 }
